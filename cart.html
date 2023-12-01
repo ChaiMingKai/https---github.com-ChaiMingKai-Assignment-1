@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Normalize.css">
+    <title>Wild West Bite-About</title>
+    <script src="script.js"></script>
+</head>
+
+<body onload="loadHeader(); loadFooter(); highlightCurrentPage();">
+<!-- implementing header and footer by script.js -->
+    <header></header>
+<!-- navigation bar -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="cart.html">My Cart</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+<!--showing the order cart with clear all button -->
+<section>
+    <h2>Order Cart</h2>
+    <button onclick="clearAll()">Clear All</button>
+    <ul id="cartItems"></ul>
+</section>
+
+
+
+
+    <footer></footer>
+
+</body>
+
+</html>
